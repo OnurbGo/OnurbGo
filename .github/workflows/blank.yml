@@ -24,6 +24,8 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.gif
             dist/github-contribution-grid-snake.svg
+            color_snake: "#00FF00"
+            color_dots: "#000000,#003300,#005500,#007700,#00FF00"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
