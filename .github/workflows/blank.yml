@@ -31,16 +31,19 @@ jobs:
         uses: actions/checkout@v3
     
       - name: Generate the snake files in './dist/'
-        uses: Platane/snk@v3
-        id: snake-gif
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |     
-            dist/github-contribution-grid-snake.gif
-            dist/github-contribution-grid-snake.svg
-        env:
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+  uses: Platane/snk@v3
+  id: snake-gif
+  with:
+    github_user_name: ${{ github.repository_owner }}
+    outputs: |     
+      dist/github-contribution-grid-snake.gif
+      dist/github-contribution-grid-snake.svg
+  color_snake: "#00FF00"
+  color_dots: "#00FF00,#00FF00,#00FF00,#00FF00,#00FF00"
+      background_color: "#000000"
+  env:
+     GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+     
       - name: Show build status
         run: git status
 
