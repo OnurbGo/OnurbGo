@@ -15,33 +15,31 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate the snake files in './dist/' (default colors)
+      - name: Generate the snake GIF (padrão)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.gif
+          outputs: dist/github-contribution-grid-snake.gif
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install -y imagemagick
 
-      - name: Recolor GIF to Matrix style
+      - name: Recolor to Matrix green
         run: |
-          convert dist/github-contribution-grid-snake.gif -coalesce -alpha off \
-            -fill black -opaque white tmp0.gif
-          convert tmp0.gif -coalesce \
-            -fuzz 20% -fill "#00FF00" -opaque none \
-            -transparent black \
-            -background black -layers Optimize dist/github-contribution-grid-snake-matrix.gif
-          mv dist/github-contribution-grid-snake-matrix.gif dist/github-contribution-grid-snake.gif
+          # Coalesce para separar frames, aplicar tint e recompor:
+          convert dist/github-contribution-grid-snake.gif -coalesce \
+            -colorspace Gray \
+            -fill "#00FF00" -tint 100 \
+            -alpha set -background black -layers Optimize \
+            dist/github-contribution-grid-snake.gif
 
-      - name: Push updated snake to output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "Update snake (Matrix style)"
+          commit_message: "Snake Matrix style"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
