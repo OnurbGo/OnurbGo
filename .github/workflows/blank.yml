@@ -1,8 +1,7 @@
-name: Generate Snake
+name: Generate Snake (Matrix Style)
 
 on:
   schedule:
-    # Executa a cada 12 horas
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
@@ -13,31 +12,36 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Clone repo
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate the snake files in './dist/'
-        uses: Platane/snk@v4
-        id: snake-gif
+      - name: Generate the snake files in './dist/' (default colors)
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.gif
-            dist/github-contribution-grid-snake.svg
-          color_snake: "#00FF00"                     
-          color_dots: "#003300,#005500,#007700"       
-          color_background: "#000000"                
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
-      - name: Show build status
-        run: git status
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
 
-      - name: Push new files to the output branch
+      - name: Recolor GIF to Matrix style
+        run: |
+          convert dist/github-contribution-grid-snake.gif -coalesce -alpha off \
+            -fill black -opaque white tmp0.gif
+          convert tmp0.gif -coalesce \
+            -fuzz 20% -fill "#00FF00" -opaque none \
+            -transparent black \
+            -background black -layers Optimize dist/github-contribution-grid-snake-matrix.gif
+          mv dist/github-contribution-grid-snake-matrix.gif dist/github-contribution-grid-snake.gif
+
+      - name: Push updated snake to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          commit_message: Update snake animations
+          commit_message: "Update snake (Matrix style)"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
