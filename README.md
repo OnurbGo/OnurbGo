@@ -44,6 +44,7 @@
 
 ---
 
+
 ### Conecte-se comigo:
 
 <a href="https://www.linkedin.com/in/bruno-gotardo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%2300FF00?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
