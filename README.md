@@ -1,5 +1,6 @@
 <!-- Typing SVG -->
 
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&width=435&lines=Olá%2C+Sou+Bruno+Gotardo+Baltieri...;Bem+Vindo+ao+Matrix!)](https://git.io/typing-svg)
 
 <!-- GitHub Stats -->
