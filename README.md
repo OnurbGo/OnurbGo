@@ -3,9 +3,9 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&width=435&lines=Olá%2C+Sou+Bruno+Gotardo+Baltieri...;Bem+Vindo+ao+Matrix!)](https://git.io/typing-svg)
 
 <!-- GitHub Stats -->
-<div align="center">  
-   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=OnurbGo&show_icons=true&count_private=true&hide_border=true&title_color=00FF00&icon_color=00FF00&text_color=00FF00&bg_color=000000" alt="Bruno Gotardo Github stats" /> 
-   <img width="46%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OnurbGo&layout=compact&hide_border=true&title_color=00FF00&text_color=00FF00&bg_color=000000" />
+<div align="center">
+  <img height="195" src="https://github-readme-stats.vercel.app/api?username=OnurbGo&show_icons=true&count_private=true&hide_border=true&title_color=00FF00&icon_color=00FF00&text_color=00FF00&bg_color=000000" alt="Estatísticas do GitHub" />
+  <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OnurbGo&layout=compact&hide_border=true&title_color=00FF00&text_color=00FF00&bg_color=000000" alt="Linguagens mais usadas" />
 </div>
 
 ### 🚀 Tecnologias que Eu Uso
