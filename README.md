@@ -27,8 +27,9 @@
 </table>
 
 ### 📊 Minhas Contribuições
-
-![snake gif](https://github.com/OnurbGo/OnurbGo/blob/output/github-contribution-grid-snake.gif)
+<div align="center">
+  <img src="https://github.com/OnurbGo/OnurbGo/blob/output/github-contribution-grid-snake.gif" />
+</div>
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=OnurbGo&bg_color=000000&color=00FF00&line=00FF00&point=00FF00&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
