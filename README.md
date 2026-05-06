@@ -10,7 +10,7 @@
 
 ### 🚀 Tecnologias que Eu Uso
 
-<table>
+<table align="center">
   <tr>
     <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40" /></td>
     <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40" /></td>
