@@ -51,6 +51,6 @@
 ### Conecte-se comigo:
 
 <a href="https://www.linkedin.com/in/bruno-gotardo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%2300FF00?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:bruno.gotardo@exemplo.com"><img src="https://img.shields.io/badge/-Gmail-%2300FF00?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+<a href="mailto:brunogotardo2006@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%2300FF00?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00FF00&height=120&section=footer&fontColor=000000"/>
