@@ -1,56 +1,36 @@
-<!-- Typing SVG -->
+<!-- ONURB-SYS // perfil gerado por scripts/generate.mjs — painéis dinâmicos atualizados pelo workflow profile.yml -->
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&width=435&lines=Olá%2C+Sou+Bruno+Gotardo+Baltieri...;Bem+Vindo+ao+Matrix!)](https://git.io/typing-svg)
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="ONURB — Bruno Gotardo Baltieri, Software Engineer" />
+</p>
 
-<!-- GitHub Stats -->
-<!-- <div align="center">
-  <img height="195" src="https://github-readme-stats.vercel.app/api?username=OnurbGo&show_icons=true&count_private=true&hide_border=true&title_color=00FF00&icon_color=00FF00&text_color=00FF00&bg_color=000000" alt="Estatísticas do GitHub" />
-  <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OnurbGo&layout=compact&hide_border=true&title_color=00FF00&text_color=00FF00&bg_color=000000" alt="Linguagens mais usadas" />
-</div> -->
+<p align="center">
+  <img src="assets/title-stack.svg" width="100%" alt="Installed cyberware" />
+  <img src="assets/stack.svg" width="100%" alt="Java, TypeScript, JavaScript, React, PHP, HTML5, CSS3, Sass, Tailwind, Bootstrap, Jest, Git" />
+</p>
 
-### 🚀 Tecnologias que Eu Uso
+<p align="center">
+  <img src="assets/title-data.svg" width="100%" alt="System diagnostics" />
+  <img src="https://raw.githubusercontent.com/OnurbGo/OnurbGo/output/status.svg" width="49%" alt="System status" />
+  <img src="https://raw.githubusercontent.com/OnurbGo/OnurbGo/output/languages.svg" width="49%" alt="Language matrix" />
+  <img src="https://raw.githubusercontent.com/OnurbGo/OnurbGo/output/activity.svg" width="100%" alt="Neural activity" />
+  <img src="https://raw.githubusercontent.com/OnurbGo/OnurbGo/output/snake.svg" width="100%" alt="Contribution snake" />
+</p>
 
-<table align="center">
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40" /></td>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40" /></td>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40" height="40" /></td>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/php/php-original.svg" width="40" height="40" /></td>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" height="40" /></td>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="40" height="40" /></td>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" width="40" height="40" /></td>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" width="40" height="40" /></td>
-    <td><img src="https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg" width="40" height="40" /></td>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" width="40" height="40" /></td>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/jest/jest-plain.svg" width="40" height="40" /></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/title-projects.svg" width="100%" alt="Data shards" />
+  <a href="https://github.com/OnurbGo/Dicehub"><img src="assets/project-dicehub.svg" width="32%" alt="DiceHub" /></a>
+  <a href="https://github.com/OnurbGo/Curso_Arte_Da_Guerra"><img src="assets/project-arte-da-guerra.svg" width="32%" alt="Arte da Guerra" /></a>
+  <a href="https://github.com/OnurbGo/Project-MeiaLuaStore"><img src="assets/project-meialua.svg" width="32%" alt="MeiaLua Store" /></a>
+</p>
 
-### 📊 Minhas Contribuições
-<div align="center">
-  <img src="https://github.com/OnurbGo/OnurbGo/blob/output/github-contribution-grid-snake.gif" />
-</div>
+<p align="center">
+  <img src="assets/title-contact.svg" width="100%" alt="Open uplink" />
+  <a href="https://www.linkedin.com/in/bruno-gotardo/"><img src="assets/btn-linkedin.svg" height="48" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:brunogotardo2006@gmail.com"><img src="assets/btn-mail.svg" height="48" alt="Gmail" /></a>
+</p>
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=OnurbGo&bg_color=000000&color=00FF00&line=00FF00&point=00FF00&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
-
-### Conheça Meus Trabalhos!
-
-- **[Curso de Artes Marciais](https://github.com/OnurbGo/Curso_Arte_Da_Guerra.git) :**
-  <br />
-  Um site de cursos de artes marciais, onde professores compartilham técnicas e filosofias.
-
-- **[Biblioteca de Jogos Online](https://github.com/OnurbGo/Project-MeiaLuaStore.git) :**
-  <br />
-  Uma biblioteca de jogos online gratuita, visando facilitar o acesso e compartilhamento.
-
----
-
-
-### Conecte-se comigo:
-
-<a href="https://www.linkedin.com/in/bruno-gotardo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%2300FF00?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:brunogotardo2006@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%2300FF00?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00FF00&height=120&section=footer&fontColor=000000"/>
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="End of transmission" />
+</p>
