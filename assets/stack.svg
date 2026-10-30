@@ -20,62 +20,62 @@
 <rect width="982" height="122" fill="none"/><g>
   <polygon points="14,4 158,4 158,46 148,56 4,56 4,14" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="136" y="12" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:0.00s"/>
-  <text x="16" y="23" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_01</text>
+  <text x="16" y="23" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_01</text>
   <text x="16" y="44" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">JAVA</text>
 </g><g>
   <polygon points="178,4 322,4 322,46 312,56 168,56 168,14" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="300" y="12" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:0.17s"/>
-  <text x="180" y="23" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_02</text>
+  <text x="180" y="23" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_02</text>
   <text x="180" y="44" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">TYPESCRIPT</text>
 </g><g>
   <polygon points="342,4 486,4 486,46 476,56 332,56 332,14" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="464" y="12" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:0.34s"/>
-  <text x="344" y="23" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_03</text>
+  <text x="344" y="23" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_03</text>
   <text x="344" y="44" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">JAVASCRIPT</text>
 </g><g>
   <polygon points="506,4 650,4 650,46 640,56 496,56 496,14" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="628" y="12" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:0.51s"/>
-  <text x="508" y="23" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_04</text>
+  <text x="508" y="23" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_04</text>
   <text x="508" y="44" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">REACT</text>
 </g><g>
   <polygon points="670,4 814,4 814,46 804,56 660,56 660,14" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="792" y="12" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:0.68s"/>
-  <text x="672" y="23" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_05</text>
+  <text x="672" y="23" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_05</text>
   <text x="672" y="44" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">PHP</text>
 </g><g>
   <polygon points="834,4 978,4 978,46 968,56 824,56 824,14" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="956" y="12" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:0.85s"/>
-  <text x="836" y="23" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_06</text>
+  <text x="836" y="23" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_06</text>
   <text x="836" y="44" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">HTML5</text>
 </g><g>
   <polygon points="14,66 158,66 158,108 148,118 4,118 4,76" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="136" y="74" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:1.02s"/>
-  <text x="16" y="85" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_07</text>
+  <text x="16" y="85" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_07</text>
   <text x="16" y="106" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">CSS3</text>
 </g><g>
   <polygon points="178,66 322,66 322,108 312,118 168,118 168,76" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="300" y="74" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:1.19s"/>
-  <text x="180" y="85" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_08</text>
+  <text x="180" y="85" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_08</text>
   <text x="180" y="106" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">SASS</text>
 </g><g>
   <polygon points="342,66 486,66 486,108 476,118 332,118 332,76" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="464" y="74" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:1.36s"/>
-  <text x="344" y="85" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_09</text>
+  <text x="344" y="85" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_09</text>
   <text x="344" y="106" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">TAILWIND</text>
 </g><g>
   <polygon points="506,66 650,66 650,108 640,118 496,118 496,76" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="628" y="74" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:1.53s"/>
-  <text x="508" y="85" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_10</text>
+  <text x="508" y="85" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_10</text>
   <text x="508" y="106" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">BOOTSTRAP</text>
 </g><g>
   <polygon points="670,66 814,66 814,108 804,118 660,118 660,76" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="792" y="74" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:1.70s"/>
-  <text x="672" y="85" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_11</text>
+  <text x="672" y="85" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_11</text>
   <text x="672" y="106" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">JEST</text>
 </g><g>
   <polygon points="834,66 978,66 978,108 968,118 824,118 824,76" fill="#0c0507" stroke="#c4102b" stroke-width="1.2"/>
   <rect x="956" y="74" width="12" height="4" fill="#ff1f3d" class="blink" style="animation-delay:1.87s"/>
-  <text x="836" y="85" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">MOD_12</text>
+  <text x="836" y="85" class="m" font-size="11" fill="#d65a68" letter-spacing="1">MOD_12</text>
   <text x="836" y="106" class="h6" font-size="18" fill="#ff4d63" letter-spacing="1.5">GIT</text>
 </g>
 </svg>

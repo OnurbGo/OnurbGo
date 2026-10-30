@@ -49,9 +49,9 @@
   </g>
   <text x="132" y="222" class="h6" font-size="20" fill="#ff4d63" letter-spacing="3">NETRUNNER OPERATIONS</text>
   <text x="132" y="248" class="m" font-size="13" fill="#ff1f3d" letter-spacing="1">//////////</text>
-  <line x1="222" y1="244" x2="520" y2="244" stroke="#b8414f" stroke-width="1"/>
-  <text x="132" y="268" class="m" font-size="12" fill="#b8414f" letter-spacing="1">CURR_NETWORK: <tspan fill="#ff1f3d">GITHUB.COM/ONURBGO</tspan></text>
-  <text x="132" y="285" class="m" font-size="12" fill="#b8414f" letter-spacing="1">NL_PORT_STATUS: <tspan fill="#2de2e6">OPEN</tspan></text>
+  <line x1="222" y1="244" x2="520" y2="244" stroke="#e07884" stroke-width="1"/>
+  <text x="132" y="268" class="m" font-size="12" fill="#e07884" letter-spacing="1">CURR_NETWORK: <tspan fill="#ff1f3d">GITHUB.COM/ONURBGO</tspan></text>
+  <text x="132" y="285" class="m" font-size="12" fill="#e07884" letter-spacing="1">NL_PORT_STATUS: <tspan fill="#2de2e6">OPEN</tspan></text>
   <text x="130" y="326" class="m" font-size="34" fill="#ff1f3d" letter-spacing="3" filter="url(#glow)">127.0.0.1</text>
 
   <!-- terminal -->
@@ -61,24 +61,24 @@
   <clipPath id="t0"><rect x="576" y="180" height="28" width="380">
     <animate attributeName="width" from="0" to="380" begin="0.6s" dur="0.6s" fill="freeze"/>
     <set attributeName="width" to="0" begin="0s"/></rect></clipPath>
-  <g clip-path="url(#t0)"><text x="578" y="200" class="m" font-size="13.5" fill="#b8414f" xml:space="preserve">UID    <tspan fill="#5c0a16">::</tspan> <tspan fill="#ff4d63">OnurbGo</tspan></text></g><clipPath id="t1"><rect x="576" y="202" height="28" width="380">
+  <g clip-path="url(#t0)"><text x="578" y="200" class="m" font-size="13.5" fill="#e07884" xml:space="preserve">UID    <tspan fill="#d65a68">::</tspan> <tspan fill="#ff4d63">OnurbGo</tspan></text></g><clipPath id="t1"><rect x="576" y="202" height="28" width="380">
     <animate attributeName="width" from="0" to="380" begin="1.05s" dur="0.6s" fill="freeze"/>
     <set attributeName="width" to="0" begin="0s"/></rect></clipPath>
-  <g clip-path="url(#t1)"><text x="578" y="222" class="m" font-size="13.5" fill="#b8414f" xml:space="preserve">IDENT  <tspan fill="#5c0a16">::</tspan> <tspan fill="#ff4d63">BRUNO GOTARDO BALTIERI</tspan></text></g><clipPath id="t2"><rect x="576" y="224" height="28" width="380">
+  <g clip-path="url(#t1)"><text x="578" y="222" class="m" font-size="13.5" fill="#e07884" xml:space="preserve">IDENT  <tspan fill="#d65a68">::</tspan> <tspan fill="#ff4d63">BRUNO GOTARDO BALTIERI</tspan></text></g><clipPath id="t2"><rect x="576" y="224" height="28" width="380">
     <animate attributeName="width" from="0" to="380" begin="1.5s" dur="0.6s" fill="freeze"/>
     <set attributeName="width" to="0" begin="0s"/></rect></clipPath>
-  <g clip-path="url(#t2)"><text x="578" y="244" class="m" font-size="13.5" fill="#b8414f" xml:space="preserve">CLASS  <tspan fill="#5c0a16">::</tspan> <tspan fill="#ff4d63">SOFTWARE ENGINEER</tspan></text></g><clipPath id="t3"><rect x="576" y="246" height="28" width="380">
+  <g clip-path="url(#t2)"><text x="578" y="244" class="m" font-size="13.5" fill="#e07884" xml:space="preserve">CLASS  <tspan fill="#d65a68">::</tspan> <tspan fill="#ff4d63">SOFTWARE ENGINEER</tspan></text></g><clipPath id="t3"><rect x="576" y="246" height="28" width="380">
     <animate attributeName="width" from="0" to="380" begin="1.9500000000000002s" dur="0.6s" fill="freeze"/>
     <set attributeName="width" to="0" begin="0s"/></rect></clipPath>
-  <g clip-path="url(#t3)"><text x="578" y="266" class="m" font-size="13.5" fill="#b8414f" xml:space="preserve">SPEC   <tspan fill="#5c0a16">::</tspan> <tspan fill="#ff4d63">FULL STACK // ARCHITECTURE</tspan></text></g><clipPath id="t4"><rect x="576" y="268" height="28" width="380">
+  <g clip-path="url(#t3)"><text x="578" y="266" class="m" font-size="13.5" fill="#e07884" xml:space="preserve">SPEC   <tspan fill="#d65a68">::</tspan> <tspan fill="#ff4d63">FULL STACK // ARCHITECTURE</tspan></text></g><clipPath id="t4"><rect x="576" y="268" height="28" width="380">
     <animate attributeName="width" from="0" to="380" begin="2.4s" dur="0.6s" fill="freeze"/>
     <set attributeName="width" to="0" begin="0s"/></rect></clipPath>
-  <g clip-path="url(#t4)"><text x="578" y="288" class="m" font-size="13.5" fill="#b8414f" xml:space="preserve">NODE   <tspan fill="#5c0a16">::</tspan> <tspan fill="#ff4d63">BOA ESPERANÇA-PR // BR</tspan></text></g><clipPath id="t5"><rect x="576" y="294" height="28" width="380">
+  <g clip-path="url(#t4)"><text x="578" y="288" class="m" font-size="13.5" fill="#e07884" xml:space="preserve">NODE   <tspan fill="#d65a68">::</tspan> <tspan fill="#ff4d63">BOA ESPERANÇA-PR // BR</tspan></text></g><clipPath id="t5"><rect x="576" y="294" height="28" width="380">
     <animate attributeName="width" from="0" to="380" begin="2.85s" dur="0.6s" fill="freeze"/>
     <set attributeName="width" to="0" begin="0s"/></rect></clipPath>
-  <g clip-path="url(#t5)"><text x="578" y="314" class="m" font-size="13.5" fill="#b8414f" xml:space="preserve">ACCESS <tspan fill="#5c0a16">::</tspan> <tspan fill="#2de2e6">GRANTED</tspan><tspan class="blink" fill="#ff1f3d"> █</tspan></text></g>
+  <g clip-path="url(#t5)"><text x="578" y="314" class="m" font-size="13.5" fill="#e07884" xml:space="preserve">ACCESS <tspan fill="#d65a68">::</tspan> <tspan fill="#2de2e6">GRANTED</tspan><tspan class="blink" fill="#ff1f3d"> █</tspan></text></g>
 
-  <text x="984" y="332" class="m" font-size="10" fill="#5c0a16" text-anchor="end" letter-spacing="1">ONURB-SYS v2.0.77 // BUILD 2026</text>
+  <text x="984" y="332" class="m" font-size="11" fill="#d65a68" text-anchor="end" letter-spacing="1">ONURB-SYS v2.0.77 // BUILD 2026</text>
 </g>
 <rect width="1000" height="340" fill="url(#scan)" pointer-events="none"/>
 </svg>

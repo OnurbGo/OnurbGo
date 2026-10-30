@@ -20,7 +20,7 @@
 
 <polygon points="12,1 219,1 219,35 207,47 1,47 1,12" fill="#0c0507" stroke="#ff1f3d" stroke-width="1.5"/>
 <rect x="1" y="1" width="6" height="46" fill="#ff1f3d"/>
-<text x="22" y="22" class="m" font-size="10" fill="#5c0a16" letter-spacing="1">UPLINK_02</text>
+<text x="22" y="22" class="m" font-size="11" fill="#d65a68" letter-spacing="1">UPLINK_02</text>
 <text x="22" y="38" class="h" font-size="18" fill="#ff4d63" letter-spacing="2">GMAIL</text>
 <text x="204" y="38" class="m" font-size="14" fill="#ff1f3d" text-anchor="end">&gt;<tspan class="blink">_</tspan></text>
 </svg>

@@ -21,6 +21,6 @@
 <rect width="1000" height="44" fill="none"/>
 <rect x="0" y="10" width="6" height="24" fill="#ff1f3d"/>
 <text x="18" y="31" class="h" font-size="24" fill="#ff1f3d" letter-spacing="3">SYSTEM DIAGNOSTICS</text>
-<text x="1000" y="31" class="m" font-size="12" fill="#b8414f" text-anchor="end" letter-spacing="1">AUTO-SYNC // 2x DAY</text>
+<text x="1000" y="31" class="m" font-size="12" fill="#e07884" text-anchor="end" letter-spacing="1">AUTO-SYNC // 2x DAY</text>
 <line x1="18" y1="40" x2="1000" y2="40" stroke="#5c0a16" stroke-width="1"/>
 </svg>

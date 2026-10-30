@@ -22,12 +22,12 @@
   <path d="M298 0H320V22" fill="none" stroke="#ff1f3d" stroke-width="2"/>
   <path d="M0 128V150H22" fill="none" stroke="#ff1f3d" stroke-width="2"/>
 <rect x="4" y="4" width="312" height="142" fill="url(#grid)"/>
-<text x="20" y="28" class="m" font-size="11" fill="#5c0a16" letter-spacing="1">// SHARD_02</text>
+<text x="20" y="28" class="m" font-size="11" fill="#d65a68" letter-spacing="1">// SHARD_02</text>
 <rect x="256" y="16" width="44" height="17" fill="#ff1f3d"/>
 <text x="278" y="29" class="m" font-size="11" fill="#000" text-anchor="middle">WEB</text>
 <text x="20" y="58" class="h" font-size="24" fill="#ff1f3d" letter-spacing="2">ARTE DA GUERRA</text>
-<text x="20" y="82" class="m" font-size="12" fill="#b8414f">Cursos de artes marciais: professores</text>
-<text x="20" y="98" class="m" font-size="12" fill="#b8414f">compartilham técnicas e filosofias.</text>
+<text x="20" y="82" class="m" font-size="12" fill="#e07884">Cursos de artes marciais: professores</text>
+<text x="20" y="98" class="m" font-size="12" fill="#e07884">compartilham técnicas e filosofias.</text>
 <text x="298" y="132" class="m" font-size="12" fill="#2de2e6" text-anchor="end" letter-spacing="1">ACCESS &gt;&gt;<tspan class="blink">_</tspan></text>
 <rect width="320" height="150" fill="url(#scan)"/>
 </svg>

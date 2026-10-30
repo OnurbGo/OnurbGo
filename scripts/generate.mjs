@@ -47,7 +47,8 @@ const C = {
   dim: "#5c0a16",
   dark: "#1c0508",
   text: "#ff4d63",
-  soft: "#b8414f",
+  soft: "#e07884",
+  faint: "#d65a68",
   cyan: "#2de2e6",
 };
 
@@ -149,11 +150,11 @@ function header() {
   lines.forEach(([k, v], i) => {
     const y = py + 72 + i * 22;
     term += typed(px + 18, y, pw - 30, 0.6 + i * 0.45,
-      `<text x="${px + 18}" y="${y}" class="m" font-size="13.5" fill="${C.soft}" xml:space="preserve">${esc(k.padEnd(7, " "))}<tspan fill="${C.dim}">::</tspan> <tspan fill="${C.text}">${esc(v)}</tspan></text>`);
+      `<text x="${px + 18}" y="${y}" class="m" font-size="13.5" fill="${C.soft}" xml:space="preserve">${esc(k.padEnd(7, " "))}<tspan fill="${C.faint}">::</tspan> <tspan fill="${C.text}">${esc(v)}</tspan></text>`);
   });
   const accY = py + 72 + lines.length * 22 + 4;
   term += typed(px + 18, accY, pw - 30, 0.6 + lines.length * 0.45,
-    `<text x="${px + 18}" y="${accY}" class="m" font-size="13.5" fill="${C.soft}" xml:space="preserve">ACCESS <tspan fill="${C.dim}">::</tspan> <tspan fill="${C.cyan}">GRANTED</tspan><tspan class="blink" fill="${C.red}"> █</tspan></text>`);
+    `<text x="${px + 18}" y="${accY}" class="m" font-size="13.5" fill="${C.soft}" xml:space="preserve">ACCESS <tspan fill="${C.faint}">::</tspan> <tspan fill="${C.cyan}">GRANTED</tspan><tspan class="blink" fill="${C.red}"> █</tspan></text>`);
 
   const glitch = `
   .g1{animation:g1 4.5s infinite;} .g2{animation:g2 4.5s infinite;}
@@ -192,7 +193,7 @@ function header() {
   <line x1="${px + 18}" y1="${py + 46}" x2="${px + pw - 18}" y2="${py + 46}" stroke="${C.dim}" stroke-dasharray="4 3"/>
   ${term}
 
-  <text x="${W - 16}" y="${H - 8}" class="m" font-size="10" fill="${C.dim}" text-anchor="end" letter-spacing="1">ONURB-SYS v2.0.77 // BUILD ${new Date().getFullYear()}</text>
+  <text x="${W - 16}" y="${H - 8}" class="m" font-size="11" fill="${C.faint}" text-anchor="end" letter-spacing="1">ONURB-SYS v2.0.77 // BUILD ${new Date().getFullYear()}</text>
 </g>
 <rect width="${W}" height="${H}" fill="url(#scan)" pointer-events="none"/>`;
   return svg(W, H, body, glitch, `${PROFILE.name} — ${PROFILE.role}`);
@@ -218,7 +219,7 @@ function stack() {
     body += `<g>
   <polygon points="${x + cut},${y} ${x + cw},${y} ${x + cw},${y + ch - cut} ${x + cw - cut},${y + ch} ${x},${y + ch} ${x},${y + cut}" fill="${C.panel}" stroke="${C.red2}" stroke-width="1.2"/>
   <rect x="${x + cw - 22}" y="${y + 8}" width="12" height="4" fill="${C.red}" class="blink" style="animation-delay:${(i * 0.17).toFixed(2)}s"/>
-  <text x="${x + 12}" y="${y + 19}" class="m" font-size="10" fill="${C.dim}" letter-spacing="1">MOD_${String(i + 1).padStart(2, "0")}</text>
+  <text x="${x + 12}" y="${y + 19}" class="m" font-size="11" fill="${C.faint}" letter-spacing="1">MOD_${String(i + 1).padStart(2, "0")}</text>
   <text x="${x + 12}" y="${y + 40}" class="h6" font-size="18" fill="${C.text}" letter-spacing="1.5">${esc(s)}</text>
 </g>`;
   });
@@ -240,7 +241,7 @@ function projectCard(p, i) {
   const body = `
 ${frame(4, 4, W - 8, H - 8, 16)}
 <rect x="4" y="4" width="${W - 8}" height="${H - 8}" fill="url(#grid)"/>
-<text x="20" y="28" class="m" font-size="11" fill="${C.dim}" letter-spacing="1">// SHARD_${String(i + 1).padStart(2, "0")}</text>
+<text x="20" y="28" class="m" font-size="11" fill="${C.faint}" letter-spacing="1">// SHARD_${String(i + 1).padStart(2, "0")}</text>
 <rect x="${W - 64}" y="16" width="44" height="17" fill="${C.red}"/>
 <text x="${W - 42}" y="29" class="m" font-size="11" fill="#000" text-anchor="middle">${esc(p.tag)}</text>
 <text x="20" y="58" class="h" font-size="24" fill="${C.red}" letter-spacing="2">${esc(p.name)}</text>
@@ -255,7 +256,7 @@ function button(label, sub) {
   const body = `
 <polygon points="12,1 ${W - 1},1 ${W - 1},${H - 13} ${W - 13},${H - 1} 1,${H - 1} 1,12" fill="${C.panel}" stroke="${C.red}" stroke-width="1.5"/>
 <rect x="1" y="1" width="6" height="${H - 2}" fill="${C.red}"/>
-<text x="22" y="22" class="m" font-size="10" fill="${C.dim}" letter-spacing="1">${esc(sub)}</text>
+<text x="22" y="22" class="m" font-size="11" fill="${C.faint}" letter-spacing="1">${esc(sub)}</text>
 <text x="22" y="38" class="h" font-size="18" fill="${C.text}" letter-spacing="2">${esc(label)}</text>
 <text x="${W - 16}" y="38" class="m" font-size="14" fill="${C.red}" text-anchor="end">&gt;<tspan class="blink">_</tspan></text>`;
   return svg(W, H, body, "", label);
@@ -267,7 +268,7 @@ function footer() {
 <rect width="${W}" height="${H}" fill="${C.bg}"/>
 <rect y="0" width="${W}" height="18" fill="url(#stripes)"/>
 <rect y="18" width="${W}" height="4" fill="#000"/>
-<text x="16" y="50" class="m" font-size="13" fill="${C.soft}" letter-spacing="2">END OF TRANSMISSION <tspan fill="${C.dim}">//</tspan> ONURB-SYS <tspan fill="${C.dim}">//</tspan> <tspan fill="${C.red}">CONNECTION CLOSED</tspan><tspan class="blink" fill="${C.red}"> █</tspan></text>
+<text x="16" y="50" class="m" font-size="13" fill="${C.soft}" letter-spacing="2">END OF TRANSMISSION <tspan fill="${C.faint}">//</tspan> ONURB-SYS <tspan fill="${C.faint}">//</tspan> <tspan fill="${C.red}">CONNECTION CLOSED</tspan><tspan class="blink" fill="${C.red}"> █</tspan></text>
 <text x="${W - 16}" y="52" class="jp" font-size="18" fill="${C.red}" text-anchor="end">${esc(PROFILE.kana)}</text>
 <rect width="${W}" height="${H}" fill="url(#scan)"/>`;
   return svg(W, H, body, "", "footer");
@@ -376,7 +377,7 @@ ${frame(6, 6, W - 12, H - 12, 22)}
   body += `
 <line x1="${x1}" y1="${yb - 8}" x2="${x2}" y2="${yb - 8}" stroke="${C.dim}"/>
 <text x="${x1}" y="${yb + 14}" class="m" font-size="14" fill="${C.text}" letter-spacing="1">OVERALL SYSTEM STATUS: <tspan fill="${state[1]}" class="blink">${state[0]}</tspan></text>
-<text x="${x2}" y="${H - 20}" class="m" font-size="10" fill="${C.dim}" text-anchor="end" letter-spacing="1">${syncStamp()}</text>
+<text x="${x2}" y="${H - 20}" class="m" font-size="11" fill="${C.faint}" text-anchor="end" letter-spacing="1">${syncStamp()}</text>
 <rect width="${W}" height="${H}" fill="url(#scan)"/>`;
   return svg(W, H, body, "", "System status");
 }
@@ -405,7 +406,7 @@ ${frame(6, 6, W - 12, H - 12, 22)}
 ${bars}`;
   });
   body += `
-<text x="${x2}" y="${H - 20}" class="m" font-size="10" fill="${C.dim}" text-anchor="end" letter-spacing="1">BY BYTES // PUBLIC REPOS</text>
+<text x="${x2}" y="${H - 20}" class="m" font-size="11" fill="${C.faint}" text-anchor="end" letter-spacing="1">BY BYTES // PUBLIC REPOS</text>
 <rect width="${W}" height="${H}" fill="url(#scan)"/>`;
   return svg(W, H, body, "", "Languages");
 }
@@ -453,7 +454,7 @@ ${grid}
 <path d="${line}" fill="none" stroke="${C.red}" stroke-width="2.4" stroke-linejoin="round" filter="url(#glow)" stroke-dasharray="${len.toFixed(0)}" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" from="${len.toFixed(0)}" to="0" dur="2s" fill="freeze"/></path>
 ${dots}
 ${xl}
-<text x="30" y="${H - 18}" class="m" font-size="10" fill="${C.dim}" letter-spacing="1">${syncStamp()}</text>
+<text x="30" y="${H - 18}" class="m" font-size="11" fill="${C.faint}" letter-spacing="1">${syncStamp()}</text>
 <rect width="${W}" height="${H}" fill="url(#scan)"/>`;
   return svg(W, H, body, "", "Activity graph");
 }
