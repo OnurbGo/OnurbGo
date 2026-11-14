@@ -29,6 +29,8 @@
   <a href="https://www.linkedin.com/in/bruno-gotardo/"><img src="assets/btn-linkedin.svg" height="48" alt="LinkedIn" /></a>
   &nbsp;
   <a href="mailto:brunogotardo2006@gmail.com"><img src="assets/btn-mail.svg" height="48" alt="Gmail" /></a>
+  &nbsp;
+  <a href="https://onurbgo.github.io/portfolio/"><img src="assets/btn-portfolio.svg" height="48" alt="Portfólio" /></a>
 </p>
 
 <p align="center">

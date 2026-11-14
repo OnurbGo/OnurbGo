@@ -470,6 +470,7 @@ if (mode === "static" || mode === "all") {
   PROJECTS.forEach((p, i) => write(`project-${p.id}.svg`, projectCard(p, i)));
   write("btn-linkedin.svg", button("LINKEDIN", "UPLINK_01"));
   write("btn-mail.svg", button("GMAIL", "UPLINK_02"));
+  write("btn-portfolio.svg", button("PORTFOLIO", "UPLINK_03"));
   write("footer.svg", footer());
   write("title-stack.svg", sectionTitle("INSTALLED CYBERWARE", 1000, "STACK // LOADOUT"));
   write("title-data.svg", sectionTitle("SYSTEM DIAGNOSTICS", 1000, "AUTO-SYNC // 2x DAY"));
